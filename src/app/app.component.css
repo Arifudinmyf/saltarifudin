@@ -1,0 +1,29 @@
+.App {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  margin: 3em 0;
+}
+
+.main {
+  margin-bottom: 1em;
+}
+
+footer {
+  border-top: 1px solid #f4e3cf;
+  padding-top: 0.5em;
+}
+
+@media (min-width: 980px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main {
+    width: 65%;
+    margin: 0;
+  }
+}

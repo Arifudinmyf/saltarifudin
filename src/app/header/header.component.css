@@ -1,0 +1,41 @@
+header {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.logo {
+  font-size: 1.8em;
+}
+
+.action-btn {
+  display: flex;
+  text-align: right;
+}
+
+#search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+  color: #953e46;
+  background-color: #f4e3cf;
+  border: none;
+  margin-right: 00.5em;
+}
+
+@media (min-width: 980px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+  }
+  .logo {
+    width: 30%;
+  }
+
+  .action-btn {
+    display: flex;
+    width: 70%;
+  }
+}

@@ -1,0 +1,39 @@
+.activity {
+  margin-top: 1em;
+}
+
+.comment {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  padding: 0.5em;
+  display: flex;
+}
+
+.comment:hover {
+  border: 1px solid #f4e3cf;
+}
+
+.image {
+  width: 20%;
+  background-color: #f4e3cf;
+  margin-right: 0.5em;
+}
+
+.comment-block {
+  width: 75%;
+}
+
+.comment-block .comment-head .title {
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+.comment-block .comment-head .subtitle,
+.counter {
+  font-size: 13px;
+}
+
+.comment-block .description {
+  font-size: 14px;
+  padding: 0.4em 0;
+}

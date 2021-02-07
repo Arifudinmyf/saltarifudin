@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  color: #f4e3cf;
+  background-color: #953e46;
+  font-family: sans-serif;
+}
+
+.btn {
+  color: #953e46;
+  background-color: #f4e3cf;
+  padding: 1em;
+  border: none;
+  margin-right: 0.5em;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+.sidebar-head {
+  padding: 1em 0 0.5em 0;
+  margin: 0 0.5em;
+  border-bottom: 2px solid #f4e3cf;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-head .title {
+  font-size: 1.8em;
+  flex: 1;
+}
+
+.sidebar-head .subtitle {
+  text-align: right;
+  font-size: 14px;
+  flex: 2;
+}
+@media (min-width: 980px) {
+  .sidebar {
+    width: 32%;
+  }
+}

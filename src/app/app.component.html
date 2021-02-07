@@ -1,0 +1,35 @@
+<div class="App">
+  <header-bar></header-bar>
+
+  <app-navbar [navlist]="navhead" [className]="navborder"></app-navbar>
+
+  <div class="container">
+    <div class="main">
+      <app-content
+        [title]="video.title"
+        [subtitle]="video.subtitle"
+      ></app-content>
+      <app-content
+        [title]="people.title"
+        [subtitle]="people.subtitle"
+      ></app-content>
+      <app-content
+        [title]="document.title"
+        [subtitle]="document.subtitle"
+      ></app-content>
+    </div>
+
+    <div class="sidebar">
+      <app-activity [activities]="Activities"></app-activity>
+      <app-channel [channels]="Channels"></app-channel>
+    </div>
+  </div>
+  <footer>
+    <app-socialmedia></app-socialmedia>
+
+    <app-navbar [navlist]="navfooter" [className]="navspace"></app-navbar>
+
+    <div>&copy;Copyright 2021 Hendra Angular inc.</div>
+    <app-navbar [navlist]="navbottom"></app-navbar>
+  </footer>
+</div>

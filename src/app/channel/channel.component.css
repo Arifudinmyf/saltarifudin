@@ -1,0 +1,32 @@
+.channels {
+  margin-top: 1em;
+}
+
+.channel-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+
+.channel {
+  width: 48%;
+  height: 100px;
+  color: #953e46;
+  background-color: #f4e3cf;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.channel-text {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.channel:hover {
+  background-color: #fff;
+}
