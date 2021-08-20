@@ -51,9 +51,20 @@
   border: 1px solid transparent;
 }
 
+/* .box-text-center {
+  position: absolute;
+  bottom: 5px;
+  align-items: center;
+} */
+
 .box-text-left {
   position: absolute;
   bottom: 5px;
+  left: 5px;
+}
+.box-text {
+  position: absolute;
+  bottom: 20px;
   left: 5px;
 }
 
@@ -71,7 +82,24 @@
   border: 1px solid transparent;
 }
 
+.content-aja {
+  color: #953e46;
+  height: 381px;
+  background-color: #f4e3cf;
+  position: relative;
+  border: 1px solid transparent;
+}
+
 .content-bottom {
   display: flex;
   justify-content: space-between;
+}
+
+.example-ripple-container {
+  cursor: pointer;
+  text-align: center;
+
+  /* width: 150px; */
+  height: 188px;
+  line-height: 180px;
 }

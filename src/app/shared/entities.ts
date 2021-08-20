@@ -4,8 +4,12 @@ export class Channel {
 }
 
 export class Activity {
-  title: string;
-  subtitle: string;
+  vid: string;
+  des: string;
+  peop: string;
+  sub: string;
+  do: string;
+  ti: string;
   description: string;
   last_update: string;
 }

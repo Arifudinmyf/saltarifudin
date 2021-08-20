@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RestApiService } from './shared/rest-api.service';
+import { RestApiService } from './shared/entities.service';
 
 @Component({
   selector: 'app-root',
@@ -28,8 +28,8 @@ export class AppComponent implements OnInit {
     });
   }
 
-  title = 'my-angular';
-  name = 'Hendra';
+  title = 'test';
+  name = 'Arifudin';
   navhead: string[] = [
     'Videos',
     'People',
@@ -55,11 +55,11 @@ export class AppComponent implements OnInit {
     subtitle: 'Browse all videos',
   };
   people = {
-    title: 'People',
-    subtitle: 'View all',
+    peop: 'People',
+    sub: 'View all',
   };
   document = {
-    title: 'Documents',
-    subtitle: 'Browse all documents',
+    do: 'Documents',  
+    ti: 'Browse all documents',
   };
 }
